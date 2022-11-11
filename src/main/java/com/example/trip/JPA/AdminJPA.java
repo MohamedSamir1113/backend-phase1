@@ -1,4 +1,7 @@
 package com.example.trip.JPA;
 
-public interface AdminJPA {
+import com.example.trip.Entities.Admin;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AdminJPA extends JpaRepository <Admin , Long> {
 }
